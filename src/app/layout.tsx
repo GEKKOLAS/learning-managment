@@ -5,7 +5,9 @@ import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "sonner";
 import { Suspense } from "react";
-import Providers from "./providers"; // Adjust the path as necessary
+import Providers from "./providers";
+// Adjust the path as necessary
+ // Adjust the path as necessary
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
