@@ -1,5 +1,6 @@
 import { CustomFormField } from "@/components/CustomFormField";
-import CustomModal from "@/components/CustomModal";
+import CustomModal from "@/components/NonDashboardNavbar";
+
 import { Button } from "@/components/ui/button";
 import {
   Form,

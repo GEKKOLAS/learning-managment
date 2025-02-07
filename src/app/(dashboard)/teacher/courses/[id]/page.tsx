@@ -1,7 +1,7 @@
 "use client";
 
 import { CustomFormField } from "@/components/CustomFormField";
-import Header from "@/components/Header";
+
 import { Button } from "@/components/ui/button";
 import { Form } from "@/components/ui/form";
 import { courseSchema } from "@/lib/schemas";
@@ -25,6 +25,7 @@ import { useForm } from "react-hook-form";
 import DroppableComponent from "./Droppable";
 import ChapterModal from "./ChapterModal";
 import SectionModal from "./SectionModal";
+import Header from "@/components/Header";
 
 const CourseEditor = () => {
   const router = useRouter();
