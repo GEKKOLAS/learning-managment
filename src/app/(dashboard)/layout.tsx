@@ -1,13 +1,16 @@
 "use client";
-import AppSidebar from "@/components/AppSidebar";
+
 import Loading from "@/components/Loading";
-import Navbar from "@/components/Navbar";
+
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { cn } from "@/lib/utils";
 import { useUser } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import ChaptersSidebar from "./user/courses/[courseId]/ChaptersSidebar";
+
+import AppSidebar from "@/components/AppSidebar";
+import Navbar from "@/components/Navbar";
+import ChaptersSidebar from "@/components/courses/[courseId]/ChaptersSidebar";
 
 export default function DashboardLayout({
   children,
